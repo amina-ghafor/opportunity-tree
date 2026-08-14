@@ -1,0 +1,4 @@
+# Source adapters (src/sources/) use only the Python standard library.
+# Dependencies will be added here once classification is built (likely
+# the anthropic SDK) and if a data-handling library (pandas) earns its
+# place over plain dicts/dataclasses.
