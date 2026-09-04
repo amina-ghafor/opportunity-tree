@@ -2,5 +2,8 @@ __pycache__/
 *.pyc
 .venv/
 .env
-data/raw/*.json
+# Working corpus snapshots, never committed (see README).
+data/raw/*
 !data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep

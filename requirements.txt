@@ -1,4 +1,5 @@
-# Source adapters (src/sources/) use only the Python standard library.
-# Dependencies will be added here once classification is built (likely
-# the anthropic SDK) and if a data-handling library (pandas) earns its
-# place over plain dicts/dataclasses.
+# Pinned deliberately light. Source adapters use the standard library for
+# HTTP; openpyxl is here only because the AI Incident Database publishes its
+# joined export as .xlsx. The anthropic SDK will follow once classification
+# is built. pandas has not yet earned its place over plain dataclasses.
+openpyxl
