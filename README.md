@@ -1,4 +1,4 @@
-# Opportunity Tree Pipeline
+# 🌳 Opportunity Tree Pipeline
 
 I built this to run my own product-discovery method end to end, not as a one-off exercise. As a PM, I take a corpus of user feedback and turn it into an [opportunity tree](https://www.producttalk.org/opportunity-solution-tree/): Teresa Torres' framework of an outcome, the opportunities underneath it, and the solutions underneath those, each one backed by evidence.
 
