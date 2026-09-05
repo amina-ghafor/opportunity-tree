@@ -15,7 +15,7 @@ This is my own two-pass method as a PM (blind extraction → codebook → classi
 
 Run an adapter directly to pull live data, e.g. `python3 -m src.sources.ai_incident_db`.
 
-## Why this shape
+## Why this 
 
 The interesting part isn't any single classification pass, it's the evidence hierarchy: knowing which source to trust when two disagree, and being explicit about validated vs. assumed vs. guessed. AIID (curated, verified, low-volume) and Reddit (raw, unverified, high-volume) exist specifically to demonstrate that.
 
