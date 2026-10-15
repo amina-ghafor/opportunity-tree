@@ -12,7 +12,7 @@ Sources are working. Classification and the front end aren't built yet.
 
 - `ai_incident_db.py`: reads a public database of documented AI-harm incidents.
 - `reddit.py`: pulls Reddit posts.
-- `app_store.py`: pulls App Store reviews. I'm dropping this one as I move off resale-marketplace data.
+- `app_store.py`: pulls App Store reviews. I'm retiring this one.
 - `schema.py`: the one record shape every source has to produce (id, source, text, date, rating, weight, meta). Nothing downstream needs to know which source a record came from.
 
 Run any adapter directly to see it pull live data, e.g. `python3 -m src.sources.ai_incident_db`.
