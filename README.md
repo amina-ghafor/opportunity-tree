@@ -12,7 +12,6 @@ Sources are working. Classification and the front end aren't built yet.
 
 - `ai_incident_db.py`: reads a public database of documented AI-harm incidents.
 - `reddit.py`: pulls Reddit posts.
-- `app_store.py`: pulls App Store reviews. I'm retiring this one.
 - `schema.py`: the one record shape every source has to produce (id, source, text, date, rating, weight, meta). Nothing downstream needs to know which source a record came from.
 
 Run any adapter directly to see it pull live data, e.g. `python3 -m src.sources.ai_incident_db`.
@@ -24,7 +23,6 @@ The interesting part of this method isn't any single classification pass. It's d
 ## Next
 
 - Finish moving the Reddit adapter onto its official API. Blocked for now on registering the API app, see the commit log.
-- Retire the App Store adapter.
 - Read a sample blind and build the codebook.
 - Classify the full corpus, then spot-check.
 - Map the codebook onto the tree.
